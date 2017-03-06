@@ -212,7 +212,7 @@
 
     new ZoomService().listen()
 
-    $('.navbar a[href*=#],.navbar area[href*=#]').click(function () {
+    $('.navbar a[href*=#],.footer a[href*=#]').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var $target = $(this.hash);
             $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');

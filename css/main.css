@@ -189,10 +189,11 @@ ul, ol {
 
 /*关于乾元*/
 .about{
-	background: #f3f3f3;
+	/*background: #f3f3f3;*/
     color: #FFFFFF;
     min-height: 400px;
     position: relative;
+    padding: 50px 0;
 }
 .about .title h3,
 .about .title p{
@@ -200,7 +201,9 @@ ul, ol {
 }
 .about-info{
 	background: #000;
-	border-radius: 5px;
+	border-radius: 0px;
+	border-left: 5px solid #337ab7;
+	border-right: 5px solid #337ab7;
 	opacity: .7;
 	margin:0 0 1em 0;
 }
@@ -210,7 +213,10 @@ ul, ol {
 	text-indent: 2em;
 }
 .about-info2{
+	color: #eee;
 	font-size: 20px;
+	text-indent: 2em;
+	padding: 20px;
 }
 .about-info .read-more{
 	overflow: hidden;
@@ -262,77 +268,9 @@ ul, ol {
 	transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.client .caption {
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    z-index: 999;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 0.8em 0.5em;
-    display: none;
-}
-.client {
-	position: relative;
-}
-.client:hover div.caption {
-	display: block;
-}
-.client .caption h4{
-	color: #f2f2f2;
-	text-align: center;
-}
-/*资质证书*/
-.certificate{
-	background: url(../img/certificate-bg.jpg) no-repeat;
-
-}
-.certificate-img img{
-	width: 100%;
-	height: auto;
-	border: 2px solid #CCCCCC;
-	margin:  0 0 20px 0;
-}
-
-
-/*新闻资讯*/
-
-.news-title{
-	width: 100%;
-}
-.news-title h4{
-	float: left;
-	font-size: 24px;
-}
-.news-title p a{
-	float: right;
-	color: #333333;
-	text-decoration: none;
-	font-size: 16px;
-	padding: 1.5em 0 0 0;
-}
-.news-info{
-	font-size: 14px;
-}
-.news-info li{
-	margin: 20px 0 0 0;
-}
-.news-info li a{
-	display: inline-block;
-	color: #333333;
-	text-decoration: none;
-	max-width:270px;
-}
-.news-info li a:hover,
-.news-title p a:hover{
-	color:#3399cc;
-}
-.news-info li time{
-	font-family: "微软雅黑";
-	float: right;
-}
 /*合作伙伴*/
 .partner{
-	background:url(../img/partner-bg.jpg) no-repeat;
+	/*background:url(../img/partner-bg.jpg) no-repeat;*/
 }
 
 /*联系我们*/
@@ -343,6 +281,7 @@ ul, ol {
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;
+    padding: 50px 0;
 }
 .contact .title h3,
 .contact .title p{
@@ -382,7 +321,7 @@ ul, ol {
 	padding: 0 0 0 15px;
 }
 .input-text{
-	background: transparent;
+	/*background: transparent;*/
 }
 .form-btn{    
     width: 11em;
@@ -762,7 +701,7 @@ ul, ol {
 	display: inline-block;
 	line-height: 1.4em;
 	font-size: 1.4em;
-	color: #23527c;
+	color: #333;
 	font-weight: bold;
 }
 @media(max-width:768px){
