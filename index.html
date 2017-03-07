@@ -19,6 +19,7 @@
     <!--[if lt IE 9]>
     <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
+    <script src="js/owl.carousel.min.js"></script>
 
     <style>
         .carousel-inner .item {
@@ -101,6 +102,7 @@
 <!--	主营品牌	 -->
 <div class="product" id="brand">
     <div class="container">
+
         <div class="title">
             <h3>主营品牌</h3>
             <div class="line">
@@ -108,6 +110,7 @@
             </div>
             <!--<p>Product Display</p>-->
         </div>
+
         <div class="row">
             <div class="col-md-4 product-box">
                 <div class="box">
@@ -147,6 +150,103 @@
             </div>
             <div class="clearfix"></div>
         </div>
+
+        <div class="row">
+            <div class="about-info">
+                <p class="about-info1">
+                    重庆靖峰餐饮服务有限公司旗下拥有“一口好酸奶”、台湾大鸡排”、“涂井-主题餐厅”多个品牌
+                </p>
+            </div>
+            <div class="gallery-cursual">
+                <ul id="owl-demo1" class="owl-carousel">
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand0.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand0.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand0.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand0.jpg" alt="name"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="row">
+            <div class="about-info">
+                <p class="about-info1">
+                    包括饮品、小吃、主食，全方位覆盖消费者对于“吃”的各种需求。
+                </p>
+            </div>
+            <div class="gallery-cursual">
+                <ul id="owl-demo2" class="owl-carousel">
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand1.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand1.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand1.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand1.jpg" alt="name"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="row">
+            <div class="about-info">
+                <p class="about-info1">
+                    包括饮品、小吃、主食，全方位覆盖消费者对于“吃”的各种需求。
+                </p>
+            </div>
+            <div class="gallery-cursual">
+                <ul id="owl-demo3" class="owl-carousel">
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand2.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand2.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand2.jpg" alt="name"></a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;"><img class="lazyOwl" src="img/brand2.jpg" alt="name"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $("#owl-demo1").owlCarousel({
+                    items: 4,
+                    lazyLoad: true,
+                    autoPlay: 3000,
+                    pagination: false,
+                });
+                $("#owl-demo2").owlCarousel({
+                    items: 4,
+                    lazyLoad: true,
+                    autoPlay: 3000,
+                    pagination: false,
+                });
+                $("#owl-demo3").owlCarousel({
+                    items: 4,
+                    lazyLoad: true,
+                    autoPlay: 3000,
+                    pagination: false,
+                });
+            });
+        </script>
     </div>
 </div>
 <!--	主营品牌结束	 -->
@@ -166,13 +266,13 @@
         <!--您的浏览器不支持 video 标签。-->
         <!--</video>-->
         <div class="about-info">
-            <p class="about-info1">
-                重庆靖峰餐饮服务有限公司旗下拥有“一口好酸奶”、台湾大鸡排”、“涂井-主题餐厅”多个品牌
+            <p class="about-info2">
+                “品质第一，味道第一，服务第一，卫生第一，氛围第一”，五个第一为原则
             </p>
         </div>
         <div class="about-info">
-            <p class="about-info1">
-                包括饮品、小吃、主食，全方位覆盖消费者对于“吃”的各种需求。
+            <p class="about-info2">
+                把纯天然、独具特色、特殊工艺生产的产品引入全国，让更多的消费者都能品尝到我们公司极具特色的产品
             </p>
         </div>
     </div>
@@ -191,16 +291,6 @@
         </div>
         <div class="about-info">
             <p class="about-info2">
-                “品质第一，味道第一，服务第一，卫生第一，氛围第一”，五个第一为原则
-            </p>
-        </div>
-        <div class="about-info">
-            <p class="about-info2">
-                把纯天然、独具特色、特殊工艺生产的产品引入全国，让更多的消费者都能品尝到我们公司极具特色的产品
-            </p>
-        </div>
-        <div class="about-info">
-            <p class="about-info2">
                 灵活的加盟方式供您选择：（小吃+饮品、饮品+主食、饮品+小吃+主食）
             </p>
         </div>
@@ -215,31 +305,31 @@
             </p>
         </div>
         <!--<div class="gallery-cursual">-->
-            <!--<ul id="owl-demo1" class="owl-carousel">-->
-                <!--<li class="item">-->
-                    <!--<a href=""><img class="lazyOwl" src="img/partner1.png" alt="name"></a>-->
-                <!--</li>-->
-                <!--<li class="item">-->
-                    <!--<a href=""><img class="lazyOwl" src="img/partner3.png" alt="name"></a>-->
-                <!--</li>-->
-                <!--<li class="item">-->
-                    <!--<a href=""><img class="lazyOwl" src="img/partner4.png" alt="name"></a>-->
-                <!--</li>-->
-                <!--<li class="item">-->
-                    <!--<a href=""><img class="lazyOwl" src="img/partner5.png" alt="name"></a>-->
-                <!--</li>-->
-            <!--</ul>-->
+        <!--<ul id="owl-demo1" class="owl-carousel">-->
+        <!--<li class="item">-->
+        <!--<a href=""><img class="lazyOwl" src="img/partner1.png" alt="name"></a>-->
+        <!--</li>-->
+        <!--<li class="item">-->
+        <!--<a href=""><img class="lazyOwl" src="img/partner3.png" alt="name"></a>-->
+        <!--</li>-->
+        <!--<li class="item">-->
+        <!--<a href=""><img class="lazyOwl" src="img/partner4.png" alt="name"></a>-->
+        <!--</li>-->
+        <!--<li class="item">-->
+        <!--<a href=""><img class="lazyOwl" src="img/partner5.png" alt="name"></a>-->
+        <!--</li>-->
+        <!--</ul>-->
         <!--</div>-->
         <!--<script src="js/owl.carousel.min.js"></script>-->
         <!--<script>-->
-            <!--$(document).ready(function () {-->
-                <!--$("#owl-demo1").owlCarousel({-->
-                    <!--items: 4,-->
-                    <!--lazyLoad: true,-->
-                    <!--autoPlay: 3000,-->
-                    <!--pagination: false,-->
-                <!--});-->
-            <!--});-->
+        <!--$(document).ready(function () {-->
+        <!--$("#owl-demo1").owlCarousel({-->
+        <!--items: 4,-->
+        <!--lazyLoad: true,-->
+        <!--autoPlay: 3000,-->
+        <!--pagination: false,-->
+        <!--});-->
+        <!--});-->
         <!--</script>-->
     </div>
 </div>
@@ -257,7 +347,7 @@
         </div>
         <div class="about-info">
             <p class="about-info2">
-                加盟本公司，您不会再为产品单一而烦恼，不会再为淡季影响而苦恼，而能做到这些的，只有我们！！！
+                欢迎国内外企业、公司、机构与本公司建立长期的合作关系，热烈欢迎各界朋友前来参观、考察、洽谈业务。<br>重庆靖峰餐饮服务有限公司全体员工欢迎各位新老客户来电咨询。
             </p>
         </div>
         <div class="row contact-info">
