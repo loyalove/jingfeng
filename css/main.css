@@ -808,8 +808,12 @@ ul, ol {
 }
 
 .gallery-cursual .item {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
     max-width: 100%;
+}
+
+.carousel-inner .item {
+    max-height: 20%;
 }
 
 @media (max-width: 768px) {
